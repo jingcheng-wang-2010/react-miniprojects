@@ -5,6 +5,8 @@ import FormValidator from './03-form-validator/FormValidator'
 import DogPic from './04-dog-pic/DogPic'
 import ScoreKeeper from './05-score-keeper/ScoreKeeper'
 import ToggleWindowEvent from './06-add-window-event/ToggleWindowEvent'
+import ColorPicker from './07-color-picker/ColorPicker'
+import PixelArt from './08-pixel-art/PixelArt'
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
       <DarkMode />
       <FormValidator />
       <DogPic />
-      <ScoreKeeper />*/}
+      <ScoreKeeper />
       <ToggleWindowEvent />
+      <ColorPicker />*/}
+      <PixelArt />
     </div>
   );
 }
